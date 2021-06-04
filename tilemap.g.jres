@@ -334,6 +334,24 @@
         "tilemapTile": true,
         "displayName": "myTile40"
     },
+    "tile63": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAA/wAAAPD/D/AzDw8APzP8z/z///D//zz8//z8z/zzP8PP8/M/P///P8/z8z8//z8zz8P/zzz/PzPPw//PPP//P//P//DM8z/DP/P/AP//PPw/8/8APzP8z8wPDwDw/w/w/wAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile56"
+    },
+    "tile56": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAPD/D/D/AAAAPzP8z8wPDwD//zz8P/P/8MzzP8M/8//PPP//P//P/888/z8zz8P/Pz//PzPPw/8/P///P8/z88/88z/Dz/Pz8P//PPz//PwAPzP8z/z//wDw/w/wMw8PAAAAAAD/AAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile49"
+    },
+    "tile62": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///D/AA8A8DPDz/z//wDw////z/zzAD/PzM88/PPw88zM/MzD///zMzPMz8P///MzzMz8w///88zPzPzD//A/z/z/z8P/APD//8/8/P8A8DPD/zP/DwAA//8A/wAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile55"
+    },
     "tile57": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wD/AAAA8DPD/zP/DwDw///P/Pz/8D/P/P/Pw///88zPzPzD///zM8zM/MP///MzM8zPw//w88zM/MzD/wA/z8zPPPzzAPD////P/PMA8DPDz/z//wAA///w/wAPAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
@@ -364,23 +382,11 @@
         "tilemapTile": true,
         "displayName": "myTile54"
     },
-    "tile62": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///D/AA8A8DPDz/z//wDw////z/zzAD/PzM88/PPw88zM/MzD///zMzPMz8P///MzzMz8w///88zPzPzD//A/z/z/z8P/APD//8/8/P8A8DPD/zP/DwAA//8A/wAAAAAAAAAAAAAAAAAAAAAAAA==",
+    "tile64": {
+        "data": "hwQQABAAAADMK8y7srvMvMu8IrwsvMvMu8zLzMvCvLvLu7u7u8zMvMy7zMy7u7u7vCvMu8y8y7y7wrvLzLvCu7u7vLy7K7zMzLvCu7K7u8u7uyu8LLzMvMvMu8zLzMvMzLu7u7vMvLu7zMzMu7u7uyvCzLvMvMvMwry7K8y7wry8u7vCuyu7uw==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "myTile55"
-    },
-    "tile56": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAPD/D/D/AAAAPzP8z8wPDwD//zz8P/P/8MzzP8M/8//PPP//P//P/888/z8zz8P/Pz//PzPPw/8/P///P8/z88/88z/Dz/Pz8P//PPz//PwAPzP8z/z//wDw/w/wMw8PAAAAAAD/AAAAAAAAAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile49"
-    },
-    "tile63": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAA/wAAAPD/D/AzDw8APzP8z/z///D//zz8//z8z/zzP8PP8/M/P///P8/z8z8//z8zz8P/zzz/PzPPw//PPP//P//P//DM8z/DP/P/AP//PPw/8/8APzP8z8wPDwDw/w/w/wAAAAAAAAAAAAAAAAAAAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile56"
+        "displayName": "myTile57"
     },
     "level1": {
         "id": "level1",
@@ -411,6 +417,36 @@
             "myTiles.tile37"
         ],
         "displayName": "level1"
+    },
+    "level3": {
+        "id": "level3",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAwYTAwMDgwMDA2MDkwOTA5MTQxNTA5MTEwOTA3MGEwZjBmMGYwZjBmMDUxMDBlMGIwYTAxMGYwMTBmMGYwNTA1MGUwYjBhMDIwZjAyMGYwZjA1MDUwNTBiMGEwZjBmMGYwZjBmMDUwNTEyMGIwYTA1MDUwNTA1MDUwNTAzMDQwYjBhMGQwZDA1MDUwNTA1MDUxMjBiMDgwYzBjMGMwYzBjMGMwYzBjMTMyMjIyMDAyMjIyMDIwMDAwMDAyMjIyMjAwMDAwMjIyMjIwMDAwMDIwMDIwMDAwMDAyMjAyMDAwMDIwMjIyMjAyMDAwMDIyMjIyMjIyMjIyMg==",
+        "tileset": [
+            "myTiles.transparency16",
+            "myTiles.tile2",
+            "myTiles.tile3",
+            "myTiles.tile4",
+            "myTiles.tile5",
+            "myTiles.tile12",
+            "myTiles.tile13",
+            "myTiles.tile14",
+            "myTiles.tile15",
+            "myTiles.tile16",
+            "myTiles.tile17",
+            "myTiles.tile18",
+            "myTiles.tile19",
+            "myTiles.tile21",
+            "myTiles.tile22",
+            "myTiles.tile24",
+            "myTiles.tile31",
+            "myTiles.tile30",
+            "myTiles.tile32",
+            "myTiles.tile35",
+            "myTiles.tile6",
+            "myTiles.tile7"
+        ],
+        "displayName": "level3"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
