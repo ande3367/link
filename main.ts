@@ -1,6 +1,3 @@
-scene.onHitWall(SpriteKind.Player, function (sprite, location) {
-	
-})
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     if (sprites.create(assets.tile`myTile55`, SpriteKind.Player).image == mySprite.image) {
         mySprite.setImage(assets.tile`myTile50`)
@@ -38,8 +35,8 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     }
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile29`, function (sprite, location) {
-    tiles.setTilemap(tilemap`level3`)
-    tiles.placeOnTile(mySprite, tiles.getTileLocation(5, 0))
+    tiles.setTilemap(tilemap`level2`)
+    tiles.placeOnTile(mySprite, tiles.getTileLocation(5, 4))
 })
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     if (sprites.create(assets.tile`myTile53`, SpriteKind.Player).image == mySprite.image) {
@@ -69,8 +66,8 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     }
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile30`, function (sprite, location) {
-    tiles.setTilemap(tilemap`level3`)
-    tiles.placeOnTile(mySprite, tiles.getTileLocation(4, 0))
+    tiles.setTilemap(tilemap`level2`)
+    tiles.placeOnTile(mySprite, tiles.getTileLocation(5, 4))
 })
 controller.left.onEvent(ControllerButtonEvent.Repeated, function () {
     if (sprites.create(assets.tile`myTile51`, SpriteKind.Player).image == mySprite.image) {
