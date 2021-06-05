@@ -79,6 +79,7 @@ controller.left.onEvent(ControllerButtonEvent.Repeated, function () {
     }
 })
 let mySprite: Sprite = null
+let overworldmap = [tiles.createMap(tilemap`level4`), tiles.createMap(tilemap`level2`)]
 scene.setBackgroundColor(15)
 tiles.setTilemap(tilemap`level1`)
 mySprite = sprites.create(assets.tile`myTile56`, SpriteKind.Player)
