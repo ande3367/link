@@ -35,7 +35,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     }
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile29`, function (sprite, location) {
-    tiles.setTilemap(tilemap`level2`)
+    tiles.loadMap(tiles.createMap(tilemap`level2`))
     tiles.placeOnTile(mySprite, tiles.getTileLocation(5, 4))
 })
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
@@ -66,7 +66,7 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     }
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile30`, function (sprite, location) {
-    tiles.setTilemap(tilemap`level2`)
+    tiles.loadMap(tiles.createMap(tilemap`level2`))
     tiles.placeOnTile(mySprite, tiles.getTileLocation(5, 4))
 })
 controller.left.onEvent(ControllerButtonEvent.Repeated, function () {
@@ -85,3 +85,12 @@ tiles.setTilemap(tilemap`level1`)
 mySprite = sprites.create(assets.tile`myTile56`, SpriteKind.Player)
 tiles.placeOnTile(mySprite, tiles.getTileLocation(2, 2))
 scene.cameraFollowSprite(mySprite)
+forever(function () {
+    info.setScore(0)
+    if (mySprite.left <= 5) {
+        if (tiles.getLoadedMap() == tiles.createMap(tilemap`level2`)) {
+            tiles.loadMap(tiles.createMap(tilemap`level4`))
+            mySprite.setPosition(scene.screenWidth(), mySprite.y)
+        }
+    }
+})
